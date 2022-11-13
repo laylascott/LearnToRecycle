@@ -126,7 +126,7 @@ def init():
             screen.blit(screen, (0, 0))
             screen.fill(pygame.Color("orange")) # erases the entire screen surface
             screen.blit(screen, (0, 0)) 
-            display_surface.blit(game_over,answer_dest)
+            display_surface.blit(game_over,(200,280))
             pygame.display.update() 
             pygame.time.delay(10000)
             pygame.display.flip()
