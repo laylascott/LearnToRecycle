@@ -1,7 +1,10 @@
 # LearnToRecycle
 VTHacksX Project. Simple game to teach recycling and learn the basics of HTML, Pygame, and django.
+** To run this program you will need a python interpreter **
+
 Steps to use in terminal:
-1. Install django $ python -m pip install -e django/
+1. Install django and pygame $ python -m pip install -e django/
+                             $ python -m pip install -U pygame --user
 2. Clone repository on your computer: $ git commit https://github.com/laylascott/LearnToRecycle.git
 3. Move to the project main branch $ cd LearnToRecycle/mysite/
 5. Run command $ python manage.py runserver
